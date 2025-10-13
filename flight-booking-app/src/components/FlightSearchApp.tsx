@@ -50,7 +50,7 @@ const FlightSearchApp: React.FC = () => {
       );
       setFlights(mockFlights);
       setLoading(false);
-    }, 1500);
+    }, 3000);
   };
 
   const toggleFavorite = (flightId: string) => {
