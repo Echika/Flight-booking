@@ -48,6 +48,11 @@ export interface SearchCriteria {
   cabinClass: string;
 }
 
+export interface AuthDialogProps {
+  open: boolean;
+  onClose: () => void;
+}
+
 // --- Mock Data ---
 
 export const mockAirports: Airport[] = [
