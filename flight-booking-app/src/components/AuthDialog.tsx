@@ -1,14 +1,9 @@
-// components/AuthDialog.tsx
-
 import React, { useState } from 'react';
 import {
   Dialog, DialogTitle, DialogContent, DialogActions, Button, TextField, Box, Tabs, Tab
 } from '@mui/material';
+import type { AuthDialogProps } from '../types'
 
-interface AuthDialogProps {
-  open: boolean;
-  onClose: () => void;
-}
 
 const AuthDialog: React.FC<AuthDialogProps> = ({ open, onClose }) => {
   const [tabValue, setTabValue] = useState(0); // 0 for Login, 1 for Sign Up
