@@ -6,7 +6,7 @@ const theme = createTheme({
     primary: {
       main: '#ffa500', 
       light: '#39796B',
-      dark: '#00251A',
+      dark: '#ffa400',
       contrastText: '#FFFFFF',
     },
     // ⭐️ Secondary: Warm Sunset Orange/Amber
@@ -51,7 +51,7 @@ const theme = createTheme({
         containedPrimary: {
           // Slightly darker on hover for a good effect
           '&:hover': {
-            backgroundColor: '#003F33', 
+            backgroundColor: '#ffa400', 
           },
         },
       },
